@@ -68,8 +68,8 @@ public class MainActivity extends ActionBarActivity {
 
             m_syn.SetServiceStrategy(Synthesizer.ServiceStrategy.AlwaysService);
 
-            Voice v = new Voice("en-US", "Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)", Voice.Gender.Female, true);
-            //Voice v = new Voice("zh-CN", "Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)", Voice.Gender.Female, true);
+            //Voice v = new Voice("en-US", "Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)", Voice.Gender.Female, true);
+            Voice v = new Voice("zh-CN", "Microsoft Server Speech Text to Speech Voice (zh-CN, HuihuiRUS)", Voice.Gender.Female, true);
             m_syn.SetVoice(v, null);
 
             // Use a string for speech.
